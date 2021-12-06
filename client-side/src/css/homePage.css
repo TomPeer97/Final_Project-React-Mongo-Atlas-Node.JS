@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: white;
+}
+#img2 {
+  width: 50%;
+}
+
+#what2 {
+  margin-left: 12%;
+}
+
+/* for tablet */
+@media (min-width: 750px) and (max-width: 1010px) {
+  ol {
+    margin-left: 28%;
+  }
+}
+
+/* for cellphones */
+@media (min-width: 360px) and (max-width: 450px) {
+}

@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#logoutBtnSpan {
+  padding-right: 2%;
+}
+
+#userNameNav {
+  padding-right: 1%;
+  color: black;
+}

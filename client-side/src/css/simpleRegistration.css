@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form-container-simple {
+  margin: 25px auto;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 10px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(59, 59, 59, 0.753);
+}
+.form-inputs-simple {
+  margin-bottom: 0.5rem;
+  width: 85%;
+}
+.form-img-simple {
+  width: 73%;
+  height: 73%;
+  position: relative;
+  transform: translate(152%, -82.4%);
+}
+.form-fields-simple {
+  margin-left: 15%;
+  margin-top: 10%;
+}
+h4 {
+  margin-top: 10%;
+}
+.ReminderForAccount-simple {
+  padding-top: 2%;
+  padding-right: 15%;
+}
+.ReminderForAccount-simple a:hover {
+  color: black;
+}
+#signUpBtn {
+  margin-right: 17%;
+}
+/* for tablet */
+@media (min-width: 750px) and (max-width: 1010px) {
+  .form-img-simple {
+    height: 500px;
+    width: 300px;
+    transform: translate(117%, -84.5%);
+  }
+  .form-container-simple {
+    height: 540px;
+  }
+  .form-fields-simple {
+    width: 350px;
+  }
+}
+
+/* for cellphones */
+@media (min-width: 360px) and (max-width: 450px) {
+  .form-img-simple {
+    visibility: hidden;
+  }
+  .form-fields-simple {
+    width: 199%;
+    padding-left: 10%;
+  }
+  h4 {
+    font-size: 19px;
+    width: 170%;
+    padding-left: 25%;
+  }
+  .form-container-simple {
+    height: 440px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}

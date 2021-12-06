@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+#coverImg {
+  background-image: url("img/cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  padding-top: 2%;
+}
+
+body {
+  font-family: "Balsamiq Sans", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "M PLUS 1", sans-serif;
+}
+
+#LogoutBtn {
+  background-color: red;
+}
+#LogoutBtn:hover {
+  background-color: lightcoral;
+  color: #000;
+  font-weight: bold;
+}
+
+#myCardBtn {
+  text-decoration: none;
+}

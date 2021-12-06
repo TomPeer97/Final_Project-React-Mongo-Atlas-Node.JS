@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#ContactBtn {
+  transition-duration: 0.4s;
+  background-color: #282c34;
+  width: 35%;
+  font-size: 20px;
+  color: white;
+  margin-left: 12%;
+}
+#ContactBtn:hover {
+  background-color: white;
+  color: #282c34;
+}
+
+#contactForm {
+  background-color: rgba(59, 59, 59, 0.753);
+  border-radius: 10px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+
+  height: 340px;
+}
+#contact-form {
+  padding-left: 10%;
+  padding-top: 3%;
+  padding-right: 5%;
+}
+/* for tablet */
+@media (min-width: 750px) and (max-width: 1010px) {
+  #contact-form {
+    margin-right: 5%;
+  }
+  .contactInformation {
+    width: 180px;
+  }
+  li {
+    width: 180px;
+    align-items: center;
+  }
+}
+
+/* for cellphones */
+@media (min-width: 360px) and (max-width: 450px) {
+}

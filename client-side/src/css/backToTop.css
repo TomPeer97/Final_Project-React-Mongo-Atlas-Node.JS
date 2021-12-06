@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  font-size: 55px;
+  color: #000;
+  cursor: pointer;
+  border-radius: 80px;
+  border: none;
+  background-color: #f2f2f2;
+  z-index: 9999999;
+  transition-delay: 5s;
+}
+
+@media only screen and (max-width: 800px) {
+  .back-to-top {
+    font-size: 35px;
+  }
+}

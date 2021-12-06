@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card {
+  background-color: #00344d;
+  color: white;
+  border-radius: 2px white solid;
+  opacity: 0.85;
+}
+.removeCard:hover {
+  background-color: white;
+  color: #2295ca;
+}
+.editCard:hover {
+  background-color: white;
+  color: #2295ca;
+}
+Button {
+  margin-right: 10px;
+}
